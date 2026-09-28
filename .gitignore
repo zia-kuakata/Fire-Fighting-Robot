@@ -1,0 +1,20 @@
+# Arduino build output
+build/
+*.hex
+*.elf
+*.bin
+*.eep
+*.lst
+*.map
+
+# IDE / editor
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Office lock files
+~$*
