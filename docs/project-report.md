@@ -1,7 +1,6 @@
 # Fire Fighting Robot Using Arduino - Project Report
 
-> Converted from [`original/Fire_Fighting_Robot_Project.docx`](original/Fire_Fighting_Robot_Project.docx).
-> The text is preserved; formatting is adapted to Markdown. Where the report and the
+> The original project report has been converted to Markdown. Where the report and the
 > firmware differ, see [known-issues.md](known-issues.md).
 
 ## 1. Introduction

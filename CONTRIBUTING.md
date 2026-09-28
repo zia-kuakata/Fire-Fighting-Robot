@@ -10,7 +10,7 @@ Thanks for helping improve this project!
 
 ## Workflow
 
-1. Open an issue describing the change (use the templates).
+1. Describe the proposed change before starting larger work.
 2. Fork the repository and create a branch: `feature/<short-name>` or `fix/<short-name>`.
 3. Make your changes. Keep commits focused, e.g. `fix: write relay OFF before pinMode`.
 4. Make sure both sketches still compile:
@@ -19,7 +19,7 @@ Thanks for helping improve this project!
    arduino-cli compile --fqbn arduino:avr:uno firmware/manual_joystick_control
    ```
 5. Update the docs and `CHANGELOG.md` when behaviour, pins or thresholds change.
-6. Open a pull request and fill in the template.
+6. Open a pull request with a clear summary and test notes.
 
 ## Code style
 

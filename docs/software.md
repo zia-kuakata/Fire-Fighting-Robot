@@ -90,8 +90,8 @@ A bring-up sketch that lets you spin each motor with a joystick axis:
 | Default FQBN | `arduino:avr:uno` |
 | Libraries | none |
 
-CI compiles both sketches on every push and pull request
-(`.github/workflows/arduino-ci.yml`).
+Compile both sketches locally with the commands in [`firmware/README.md`](../firmware/README.md)
+before uploading them to the board.
 
 ## 4. Coding conventions for contributions
 

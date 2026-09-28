@@ -12,11 +12,9 @@ project uses [Semantic Versioning](https://semver.org/).
   (imported unchanged from the original `fire_service.ino`).
 - `firmware/manual_joystick_control`: joystick motor-driver test sketch
   (imported unchanged from the original `final_6-3-25.ino`).
-- Project report converted to Markdown (`docs/project-report.md`); the original
-  Word file is kept in `docs/original/`.
+- Project report converted to Markdown (`docs/project-report.md`).
 - Hardware, software, testing and known-issues documentation.
-- GitHub Actions workflow that compiles both sketches for Arduino Uno.
-- Issue / pull-request templates, contributing guide, MIT license.
+- Contributing guide and MIT license.
 
 ### Notes
 - The original firmware source was **not modified** in this release. Differences

@@ -1,6 +1,5 @@
 # 🔥 Fire Fighting Robot (Arduino)
 
-[![Arduino CI](https://github.com/YOUR_USERNAME/fire-fighting-robot/actions/workflows/arduino-ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/fire-fighting-robot/actions/workflows/arduino-ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 ![Platform](https://img.shields.io/badge/platform-Arduino%20(AVR)-00979D)
 ![Status](https://img.shields.io/badge/status-prototype-orange)
@@ -79,13 +78,8 @@ fire-fighting-robot/
 │   ├── hardware.md                     # components, wiring, power
 │   ├── software.md                     # firmware architecture + logic
 │   ├── testing-and-calibration.md      # bring-up, sensor tuning, test plan
-│   ├── known-issues.md                 # report-vs-code gaps, bugs, fixes
-│   └── original/
-│       └── Fire_Fighting_Robot_Project.docx
-└── .github/
-    ├── workflows/arduino-ci.yml        # compiles both sketches on every push/PR
-    ├── ISSUE_TEMPLATE/
-    └── PULL_REQUEST_TEMPLATE.md
+│   └── known-issues.md                 # report-vs-code gaps, bugs, fixes
+└── .gitignore
 ```
 
 > Arduino requires each sketch to live in a folder with the same name as its `.ino`
@@ -229,7 +223,7 @@ Sensor modules differ, so re-calibrate for yours - see
 
 ## Report vs. code (read this)
 
-The Word report and the two sketches were written at different stages and **do not
+The project report and the two sketches were written at different stages and **do not
 fully match**. In short:
 
 | Report describes | Code today |
@@ -267,8 +261,8 @@ This project involves open flame, water and mains-adjacent electronics.
 
 ## Contributing
 
-Contributions are welcome - see [CONTRIBUTING.md](CONTRIBUTING.md). Please open an issue
-first for larger changes.
+Contributions are welcome - see [CONTRIBUTING.md](CONTRIBUTING.md). Please describe
+larger changes before implementing them.
 
 ## License
 
