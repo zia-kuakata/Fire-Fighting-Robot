@@ -1,0 +1,4 @@
+* text=auto
+*.ino text eol=lf
+*.md text eol=lf
+*.docx binary
